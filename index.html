@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Um dia desses, você vistia uma academia e se depara com uma aula frenetica de jiu-jitsu!</p>
+            <button class="btn-proximo" data-proximo="1">você entra na sala para fazer uma demonstraçao de uma aula de jiu-jitsu</button>
+            <button class="btn-proximo" data-proximo="2">você somente observa a aula.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua aula de jiu-jitsu, tomando uma amasso de todos, porém as pessoas são muito educadas com você.</p>
+            <button class="btn-proximo" data-proximo="3">seguir com as aulas, so para ver o que dá</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa chorando</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na academia, você se depara com pessoas da mesma idade sua amassando pessoas de grande estatura</p>
+            <button class="btn-proximo" data-proximo="5">Você ganha uma motivação e tenta alcançar o mesmo nível dos demais alunos</button>
+            <button class="btn-proximo" data-proximo="6">Você se sente desmotivado e começa a ficar com medo de nao conseguir evoluir da mesma forma que seus colegas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>você começa a ter uma evoluçao muito boa porém ainda sim você se desgasta muito e ainda usa mais força que tecnica</p>
+            <button class="btn-proximo" data-proximo="7">Seguir com as aulas de jiu-jitsu</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aula seria longa demais e volta para casa, mas sempre se pergunta como teria
+                evoluido no jiu-jitsu.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você tomou um amasso de todos os colgas do jiu-jitsu.</p>
+            <button class="btn-proximo" data-proximo="7">Você não se abala com os pensamentos negativos, e continua com as aulas de jiu-jitsu</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você toma uma finalização do menos graduado e começa a ficar com mais foco durante a luta</p>
+            <button class="btn-proximo" data-proximo="8">Voltar ao tatame e entrar em um foco absurdo</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Depois de mesês, você finalmente aplica uma finalização </p>
+            <button class="btn-proximo" data-proximo="9">desrespeitar o seu adiversário com um xingamento, e desafiar o mais graduado do jiu-jitsu</button>
+            <button class="btn-proximo" data-proximo="10">seguir com o pé no chão, e continuar com uma evolução em pequenos progresso</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta à luta você finalmente dá trabalho ao seu adversario. apresentando técnicas que o proprio mestre o ensinou!</p>
+            <button class="btn-proximo" data-proximo="7">continuar tentando finalizar algum colega </button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você tomou um amasso absurdo, fazendo você se questionar sobre sua propria capacidade</p>
+            <button class="btn-proximo" data-proximo="11">Desistir do jiu-jitsu e sair do time</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você consegue seu primeiro grau na faixa e está em uma contante evolução no jiu jiu-jitsu</p>
+            <button class="btn-proximo" data-proximo="12">Continuar suas aulas de jiu-jitsu</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Você percebe o ensinamento do jiu-jitsu, de que o respeito tem que estar sempre presente na evolução e nunca você pode despresar ninguem!</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você alcança um nivel incrivel no jiu-jitsu e se sente orgulhoso de si mesmo</p>
+            <button class="btn-proximo" data-proximo="11">continuar a praticar o jiu-jitsu</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
